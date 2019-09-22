@@ -50,15 +50,15 @@ function addListAfterKeypress(key) {
 }
 // action de suppresion de tâche
 function deleteButtonInsert() {
-  let addDeleteButton = document.createElement("button");
-  let deleteButtonIcon = document.createTextNode("\u00D7");
-  addDeleteButton.className = "close";
+  let addDeleteButton = document.createElement(`button`);
+  let deleteButtonIcon = document.createTextNode(`\u2661`);
+  addDeleteButton.className = `close`;
   addDeleteButton.append(deleteButtonIcon);
   li.append(addDeleteButton);
 }
 	
 function deleteButton() {
-  let close = document.getElementsByClassName("close");
+  let close = document.body.getElementsByClassName(`close`);
   let i;
   for (i = 0; i < close.length; i++) {
     close[i].onclick = function() {
