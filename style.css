@@ -25,7 +25,6 @@ html {
 	font-family: 'Lato', sans-serif;
 
 }
-@media 
 /* 
 
 		Grid area
@@ -47,7 +46,7 @@ html {
 	grid-row: 1;
 	height:auto;
 	width:35vw;
-	background-color:pink;
+	background-color:hsl(345, 78%, 82%);
 	border: .1rem dashed black;
 	box-shadow: 0 0 1rem 0;
 }
