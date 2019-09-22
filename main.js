@@ -36,8 +36,8 @@ function  addListAfterClick() {
 	if (inputLength() > 0) {
 	createElementLi() ;
 	addInputValueInLi() ;
-	ul.insertAdjacentElement(`beforeend`, li);
-	clearInput()
+	insertNewLi();
+	clearInput();
 	deleteButtonInsert();
 	deleteButton();
 	}
