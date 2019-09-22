@@ -49,7 +49,7 @@ html {
 	background-color:hsl(345, 78%, 82%);
 	border: .1rem dashed black;
 	box-shadow: 0 0 1rem 0;
-	    overflow: auto;
+	overflow:auto;
 
 }
 header {
@@ -57,7 +57,7 @@ header {
 }
 footer{
 	grid-column:1/4;
-	grid-row: 3;
+	grid-row:3;
 	height:25vh;
 }
 /*
@@ -101,4 +101,6 @@ li {
 li, ul, button, #text{
 	cursor: pointer;
 }
+footer p{
+	margin-top:50vh;
 }
