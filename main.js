@@ -67,6 +67,19 @@ function deleteButton() {
     };
   }
 }
+// mode nuit
+function addDarkMode() {
+	let color = document.body.style.backgroundColor;
+
+    	if (color === "rgb(255, 252, 86)") {
+        	document.body.style.backgroundColor = "#0D0D0D";
+    	}
+    	else {
+        	document.body.style.backgroundColor = "#FFFC56";
+    	}
+}
+darkMode.addEventListener("click", addDarkMode);
 
 button.addEventListener(`click`, addListAfterClick); //action d'écoute - utlisé pour fonction test
+
 input.addEventListener(`keypress`, addListAfterKeypress); // action d'écoute - utilisé pour fonction test
