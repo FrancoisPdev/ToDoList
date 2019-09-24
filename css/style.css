@@ -7,7 +7,7 @@
 
 				****/
 
-@import url('https://fonts.googleapis.com/css?family=Lato:100&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:300&display=swap');
 @media all {
 /****
 
@@ -37,7 +37,7 @@ html {
 	grid-template-columns: repeat(3, 1fr);
 	grid-gap:1rem;
 	grid-auto-rows: minmax(1rem, auto);
-	background:url(apple-background-connection.jpg)no-repeat center fixed; 
+	background:url(../images/apple-background-connection.jpg)no-repeat center fixed; 
 	-webkit-background-size: cover; /* pour anciens Chrome et Safari */
 	background-size: cover; /* version standardisée */
 }
