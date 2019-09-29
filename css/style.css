@@ -104,3 +104,40 @@ li, ul, button, #text{
 footer p{
 	margin-top:50vh;
 }
+	/*
+	
+	mobile view
+	
+	*/
+@media (min-width: 320px) and (max-width: 767px) {
+	
+	* {box-sizing: border-box;}
+.wrapper{
+	display : grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap:1rem;
+	grid-auto-rows: minmax(1rem, auto);
+	background:url(../images/apple-background-connection.jpg)no-repeat center fixed; 
+	-webkit-background-size: cover; /* pour anciens Chrome et Safari */
+	background-size: cover; /* version standardisée */
+}
+.contenair{
+	grid-column: 2;
+	grid-row: 1;
+	height:auto;
+	width:35vw;
+	background-color:hsl(345, 78%, 82%);
+	border: .1rem dashed black;
+	box-shadow: 0 0 1rem 0;
+	overflow:auto;
+
+}
+header {
+	height:25vh;
+}
+footer{
+	grid-column:1/4;
+	grid-row:3;
+	height:25vh;
+}
+	}
